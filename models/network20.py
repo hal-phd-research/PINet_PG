@@ -563,6 +563,7 @@ class NLayerDiscriminator(nn.Module):
 
     def forward(self, input):
         return self.model(input)
+        
 class PixelDiscriminator(nn.Module):
     def __init__(self):
 
